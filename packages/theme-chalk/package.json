@@ -1,6 +1,6 @@
 {
-  "name": "element-theme-chalk",
-  "version": "2.15.8",
+  "name": "i-design-theme-base",
+  "version": "0.16.0",
   "description": "Element component chalk theme.",
   "main": "lib/index.css",
   "style": "lib/index.css",
