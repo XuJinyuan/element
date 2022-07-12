@@ -112,11 +112,11 @@
       list-style: none;
       position: relative;
       cursor: pointer;
-    
+
       &.nav-algolia-search {
         cursor: default;
       }
-    
+
       &.lang-item,
       &:last-child {
         cursor: default;
@@ -210,7 +210,7 @@
       }
     }
   }
-  
+
   .nav-dropdown-list {
     width: auto;
   }
@@ -230,7 +230,7 @@
         &:last-child {
           margin-left: 10px;
         }
-         
+
         a {
           padding: 0 5px;
         }
@@ -254,11 +254,11 @@
 
         &.lang-item {
           height: 100%;
-         
+
           .nav-lang {
             display: flex;
             align-items: center;
-            
+
             span {
               padding-bottom: 0;
             }
@@ -282,16 +282,6 @@
 </style>
 <template>
   <div class="headerWrapper">
-    <div id="v3-banner" v-if="isHome">
-      <template v-if="lang === 'zh-CN'">
-        您正在浏览基于 Vue 2.x 的 Element UI 文档;
-        <a href="https://element-plus.org/#/zh-CN">点击这里</a> 查看 Vue 3.x 的升级版本
-      </template>
-      <template v-else>
-        You’re browsing the documentation of Element UI for Vue 2.x version.
-        <a href="https://element-plus.org">Click here</a> for Vue 3.x version
-      </template>
-    </div>
     <header class="header" ref="header">
       <div class="container">
         <h1><router-link :to="`/${ lang }`">
@@ -326,7 +316,7 @@
               :to="`/${ lang }/component`">{{ langConfig.components }}
             </router-link>
           </li>
-          <li 
+          <li
             class="nav-item nav-item-theme"
           >
             <router-link

@@ -81,9 +81,11 @@ $--border-style-base: solid !default;
 $--border-color-hover: $--color-text-placeholder !default;
 $--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
 /// borderRadius|1|Radius|0
-$--border-radius-base: 2px !default;
+$--border-radius-base: 4px !default;
 /// borderRadius|1|Radius|0
-$--border-radius-small: 1px !default;
+$--border-radius-small: 2px !default;
+/// borderRadius|1|Radius|0
+$--border-radius-medium: 6px !default;
 /// borderRadius|1|Radius|0
 $--border-radius-circle: 100% !default;
 /// borderRadius|1|Radius|0
@@ -366,12 +368,12 @@ $--messagebox-danger-color: $--color-danger !default;
 -------------------------- */
 $--message-shadow: $--box-shadow-base !default;
 $--message-min-width: 380px !default;
-$--message-background-color: #edf2fc !default;
+$--message-background-color: #fff !default;
 $--message-padding: 15px 15px 15px 20px !default;
 /// color||Color|0
 $--message-close-icon-color: $--color-text-placeholder !default;
 /// height||Other|4
-$--message-close-size: 16px !default;
+$--message-close-size: 14px !default;
 /// color||Color|0
 $--message-close-hover-color: $--color-text-secondary !default;
 
@@ -617,13 +619,13 @@ $--switch-button-size: 16px !default;
 $--dialog-background-color: $--color-white !default;
 $--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
 /// fontSize||Font|1
-$--dialog-title-font-size: $--font-size-large !default;
+$--dialog-title-font-size: $--font-size-medium !default;
 /// fontSize||Font|1
 $--dialog-content-font-size: 14px !default;
 /// fontLineHeight||LineHeight|2
 $--dialog-font-line-height: $--font-line-height-primary !default;
 /// padding||Spacing|3
-$--dialog-padding-primary: 20px !default;
+$--dialog-padding-primary: 10px !default;
 
 /* Table
 -------------------------- */

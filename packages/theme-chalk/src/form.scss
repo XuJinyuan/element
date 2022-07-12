@@ -163,5 +163,8 @@
     .el-input__validateIcon {
       display: inline-block;
     }
+    .el-input__validateIcon {
+      color: $--color-success;
+    }
   }
 }
