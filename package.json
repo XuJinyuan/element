@@ -1,6 +1,6 @@
 {
   "name": "i-design",
-  "version": "0.15.11",
+  "version": "0.15.12",
   "description": "A Component Library for Vue.js.",
   "main": "lib/element-ui.common.js",
   "files": [
